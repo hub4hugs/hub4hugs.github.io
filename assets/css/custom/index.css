@@ -151,10 +151,10 @@ body {
 }
 .gradient-vertical-2 {
     background: #1fc8db; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#ff5a5f 0%, #ff5c61 51%, #fff 75%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#ff5a5f 0%, #ff5c61 51%, #fff 75%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#ff5a5f 0%, #ff5c61 51%, #fff 75%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ff5a5f 0%, #ff5c61 51%, #fff 75%); /* Standard syntax */
+    background: -webkit-linear-gradient(#ff5a5f 75%, #ff5c61 51%, #fff 0%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff5a5f 75%, #ff5c61 51%, #fff 0%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff5a5f 75%, #ff5c61 51%, #fff 0%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff5a5f 75%, #ff5c61 51%, #fff 0%); /* Standard syntax */
 }
 
 .into-gradient{
