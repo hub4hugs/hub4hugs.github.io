@@ -21,6 +21,10 @@ a:hover {
 .grey{
   color: #7d7d7d !important; 
 }
+
+.pink{
+  color: #ff5a5f !important;
+}
 /* Text sizing */
 
 .text-slim-medium{
@@ -122,7 +126,7 @@ body {
  * Gradient types
  */
 
-.gradient { Airbeb #ff5a5f intermedio ff5c61    finale ff7579
+.gradient { 
 
   background: #2cb5e8; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(141deg, #ff7579 0%, #ff5c61 51%, #ff5a5f 75%); /* For Safari 5.1 to 6.0 */
