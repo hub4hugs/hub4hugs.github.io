@@ -123,8 +123,14 @@ body {
 
 
 /*
- * Gradient types
+ * Gradient and background types
  */
+
+ .grey-bg{
+
+  background-color: #c5c5c5 !important;
+
+ }
 
 .gradient { 
 
