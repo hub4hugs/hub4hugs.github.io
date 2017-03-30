@@ -237,9 +237,10 @@ canonical: https://hub4hugs.github.io
 	            <h1 class="cover-heading white jumbotitle">Other way to send an Hug:</h1>
 	            <p class="lead white jumbotext">Is by take a present for you or your friend.</p> 
 	            <p class="white"> Created from Amazon.</p>
-	            <p class="lead jumbotext">
-	              <a href="{{ BASE_PATH }}" class="btn btn-lg btn-default">Give my Hug</a>
-	            </p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				  Send my hug!
+				</button>
 			  </div>
 			</div>          	
 
@@ -344,4 +345,25 @@ canonical: https://hub4hugs.github.io
 
 </div>
 
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
