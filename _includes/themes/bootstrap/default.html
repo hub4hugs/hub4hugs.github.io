@@ -34,12 +34,14 @@ lantoniotrento@gmail.com
     <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/custom/mediaquery.css" />
 
     <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/bootstrap/bootstrap.min.css" />
-
+    
+    <!-- old meta tags for sharing
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.tagline }}">
     <meta property="og:image" content="{{ BASE_PATH }}/assets/img/big/{{ page.img }}">
-    <meta property="og:url" content="{{ BASE_PATH }}">
-    
+    <meta property="og:url" content="{{ BASE_PATH }}">-->
+
+    <!--Twitter cards video-->
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
     <meta name="twitter:card" content="player" />
     <meta name="twitter:site" content="@hub4hugs" />
@@ -51,6 +53,21 @@ lantoniotrento@gmail.com
     <meta name="twitter:player:height" content="480" />
     <meta name="twitter:player:stream" content="{{ BASE_PATH }}/assets/img/{{ page.img }}" />
     <meta name="twitter:player:stream:content_type" content="video/mp4" />
+
+  <!-- Facebook graph video -->
+<!-- https://developers.facebook.com/docs/sharing/webmasters#media -->
+
+    <meta property="og:url" content="{{ BASE_PATH }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.tagline }}" />
+    <meta property="og:image" content="{{ BASE_PATH }}/assets/img/v_hug.png" />
+
+    <meta property="og:type" content="video" />
+    <meta property="og:video" content="{{ BASE_PATH }}/assets/img/v_hug.mp4">
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="500">
+    <meta property="og:video:height" content="281">
+    <!--<meta property="fb:app_id" content="348767955164988"> facebook app id for tracking or advanced function -->  
 
 	<!--[if IE]>
 		<script type="text/javascript">
