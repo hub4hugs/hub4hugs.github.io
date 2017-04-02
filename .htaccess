@@ -2,9 +2,11 @@
 # ------------------------------------------------------------------------------
 <IfModule mod_expires.c>
 ExpiresActive On
+ExpiresByType assets/css/bootstrap "access 1 year"
+ExpiresByType assets/css/custom  "access 1 year"
 ExpiresByType assets/img "access 1 year"
-ExpiresByType assets/css "access 1 year"
-ExpiresByType assets/js "access 1 year"
-"
+ExpiresByType assets/js/bootstrap "access 1 year"
+ExpiresByType /assets/js/jquery "access 1 year"
+
 </IfModule>
 # End caching block
