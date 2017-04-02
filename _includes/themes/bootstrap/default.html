@@ -134,6 +134,16 @@ lantoniotrento@gmail.com
 <script src="{{ BASE_PATH }}/assets/js/jquery/jquery-ui.min.js"></script>
 
 <script src="{{ BASE_PATH }}/assets/js/bootstrap/bootstrap.min.js"></script>
+<script>
+window.addEventListener("scroll", function() {
+    if (window.scrollY < 500) {
+        $('.navbar').fadeOut();
+    }
+    else {
+        $('.navbar').fadeIn();
+    }
+},false);
+</script>
 
 <!-- Social scripting -->
 
