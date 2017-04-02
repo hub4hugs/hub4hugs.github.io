@@ -1,0 +1,10 @@
+# Set browser caching
+# ------------------------------------------------------------------------------
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType assets/img "access 1 year"
+ExpiresByType assets/css "access 1 year"
+ExpiresByType assets/js "access 1 year"
+"
+</IfModule>
+# End caching block
