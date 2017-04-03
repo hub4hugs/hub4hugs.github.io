@@ -306,4 +306,7 @@ body {
     display: flex;
     align-items: center;
 }
-
+.container-fluid{
+   padding: 0!important;
+   margin: 0!important;
+}
