@@ -296,3 +296,14 @@ body {
   animation: bounce 2s infinite;
 }
 
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
