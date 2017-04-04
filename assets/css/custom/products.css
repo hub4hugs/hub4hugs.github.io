@@ -163,10 +163,10 @@ body {
   -o-background-size: cover;
   background-size: cover;
   /*background gradient transparent to show the bg image*/
-  background: url('https://unsplash.it/2200/?image=120') no-repeat center center, -webkit-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%); 
-  background: url('https://unsplash.it/2200/?image=120') no-repeat center center, -o-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%); 
-  background: url('https://unsplash.it/2200/?image=120') no-repeat center center, -moz-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%); 
-  background: url('https://unsplash.it/2200/?image=120') no-repeat center center, linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%);
+  background: -webkit-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%), url('https://unsplash.it/2200/?image=120') no-repeat center center; 
+  background: -o-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%), url('https://unsplash.it/2200/?image=120') no-repeat center center; 
+  background: -moz-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%), url('https://unsplash.it/2200/?image=120') no-repeat center center; 
+  background: linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%), url('https://unsplash.it/2200/?image=120') no-repeat center center;
 
 }
 .gradient-vertical-1 {
