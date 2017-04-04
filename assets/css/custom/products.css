@@ -151,7 +151,23 @@ body {
   background: -o-linear-gradient(141deg, #ff7579 0%, #ff5c61 51%, #ff878b 75%); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(141deg, #ff7579 0%, #ff5c61 51%, #ff878b 75%); /* For Firefox 3.6 to 15 */
   background: linear-gradient(141deg, #ff7579 0%, #ff5c61 51%, #ff878b 75%); /* Standard syntax */  
-  background: linear-gradient(141deg, #ff7579 0%, #ff5c61 51%, #ff878b 75%);
+  
+
+}
+
+.gradient-bg { 
+  /* Background image styles */
+  background: url('https://unsplash.it/2200/?image=120') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background gradient transparent to show the bg image*/
+  background: #ff5c61;
+  background: -webkit-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%); 
+  background: -o-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%); 
+  background: -moz-linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%); 
+  background: linear-gradient(141deg, rgba(255,117,121,0.6) 0%, rgba(255,92,97,0.6) 51%, rgba(255,135,139,0.6) 71%);
 
 }
 .gradient-vertical-1 {
