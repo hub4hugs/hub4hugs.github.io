@@ -87,7 +87,6 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
-  margin-top: auto;
 }
 
 /* Padding for spacing */
@@ -217,7 +216,7 @@ body {
   }
 
 
-.vertical-align {
+.align-vertical {
     display: flex;
     align-items: center;
 }
