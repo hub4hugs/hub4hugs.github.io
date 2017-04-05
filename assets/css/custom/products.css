@@ -332,6 +332,12 @@ body {
       font-weight: 350 !important;
       text-shadow: 0 1px 3px rgba(0,0,0,.5);
     }
+    .title {
+        font-size: 10px;
+    }
+    .paragraph {
+        font-size: 5px;
+    }    
 
 
 }
@@ -387,7 +393,7 @@ body {
     .title {
         font-size: 18px;
     }
-}*/
+}
 
 @media all and (max-device-width: 640px){
     .title {
@@ -405,4 +411,4 @@ body {
     .paragraph {
         font-size: 5px;
     }    
-}
+}*/
