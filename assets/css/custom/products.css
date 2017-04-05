@@ -62,11 +62,6 @@ body {
   
 }
 
-.align-vertical {
-    display: flex;
-    align-items: center;
-}
-
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -220,6 +215,11 @@ body {
     width: 90%;
   }
 
+
+.align-vertical {
+    display: flex;
+    align-items: center;
+}
 
 }
 
