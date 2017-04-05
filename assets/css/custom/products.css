@@ -323,6 +323,7 @@ body {
     }
 
     .jumbotitle{
+      margin-top: 3em;
       font-size: 4rem !important;
       font-weight: 500 !important;
       text-shadow: 0 1px 3px rgba(0,0,0,.5);
