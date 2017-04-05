@@ -381,3 +381,28 @@ body {
 
 }    
 
+
+
+/*@media all and (max-device-width: 720px){
+    .title {
+        font-size: 18px;
+    }
+}*/
+
+@media all and (max-device-width: 640px){
+    .title {
+        font-size: 10px;
+    }
+    .paragraph {
+        font-size: 5px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .title {
+        font-size: 10px;
+    }
+    .paragraph {
+        font-size: 5px;
+    }    
+}
