@@ -30,30 +30,6 @@ a:hover {
 .pink{
   color: #ff5a5f !important;
 }
-/* Text sizing */
-
-.text-slim-medium{
-  font-size: 1.8rem !important;
-}
-
-.text-medium{
-  font-size: 3rem !important;
-}
-
-.text-big{
-  font-size: 5rem !important;
-}
-
-.jumbotitle{
-  font-size: 6rem !important;
-  font-weight: 600 !important;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
-.jumbotext{
-  font-size: 3rem !important;
-  font-weight: 400 !important;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
 
 .social{
   margin: 0.3em;
@@ -326,4 +302,82 @@ body {
     display: flex;
     align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* Style for our header texts
+    * --------------------------------------- */
+
+    /* Text sizing */
+
+    .text-slim-medium{
+      font-size: 1.3rem !important;
+    }
+
+    .text-medium{
+      font-size: 1.5rem !important;
+    }
+
+    .text-big{
+      font-size: 3rem !important;
+    }
+
+    .jumbotitle{
+      font-size: 4rem !important;
+      font-weight: 500 !important;
+      text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    }
+    .jumbotext{
+      font-size: 2rem !important;
+      font-weight: 350 !important;
+      text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    /* Style for our header texts
+    * --------------------------------------- */
+/* Text sizing */
+
+    .text-slim-medium{
+      font-size: 1.8rem !important;
+    }
+
+    .text-medium{
+      font-size: 3rem !important;
+    }
+
+    .text-big{
+      font-size: 5rem !important;
+    }
+
+    .jumbotitle{
+      font-size: 6rem !important;
+      font-weight: 600 !important;
+      text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    }
+    .jumbotext{
+      font-size: 3rem !important;
+      font-weight: 400 !important;
+      text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    
+    /* Style for our header texts
+    * --------------------------------------- */
+}
+
+@media only screen and (orientation: portrait) {
+
+
+}    
 
