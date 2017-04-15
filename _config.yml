@@ -34,8 +34,8 @@ twitter_username: hub4hugs
 #create an alias for link all the website
 hub_products: https://linktoamazonproduct
 hub_products1: https://www.amazon.com/dp/B071D9V9N6
-hub_products2: 
-hub_products3:
+hub_products2: https://www.amazon.com/dp/B071QZM5VK
+hub_products3: 
 hub_products4: 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
